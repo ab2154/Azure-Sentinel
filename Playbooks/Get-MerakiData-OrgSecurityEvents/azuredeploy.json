@@ -157,7 +157,7 @@
                             "inputs": {
                                 "content": "@body('HTTP_-_GET_OrgSecurityEvents')",
                                 "schema": {
-                                    "items": {
+                                    "content": {
                                         "properties": {
                                             "blocked": {
                                                 "type": "boolean"
